@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+streamlit
+motor
+pymongo
+google-generativeai
+google-genai
+langchain
+langchain-community
+langchain-google-genai
+chromadb
+pypdf
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+pydantic
+pydantic-settings

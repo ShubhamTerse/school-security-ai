@@ -7,7 +7,7 @@ load_dotenv()
 
 st.set_page_config(page_title="School Security AI", layout="wide", initial_sidebar_state="expanded")
 
-API_URL = "http://localhost:8000/api"
+API_URL = "https://school-security-ai.onrender.com/api"
 
 if "token" not in st.session_state:
     st.session_state.token = None

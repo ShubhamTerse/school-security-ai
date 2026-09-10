@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "http://localhost:8000/api"
+API_URL = "https://school-security-ai.onrender.com/api"
 
 if "token" not in st.session_state or not st.session_state.token:
     st.warning("Please log in from the main page.")
